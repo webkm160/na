@@ -27,41 +27,9 @@
 
 <body class="page">
     <!-- Top Bar Start -->
-    <div class="top-bar d-none d-md-block">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="top-bar-left">
-                        <div class="text">
-                            <i class="far fa-clock"></i>
-                            <h2>8:00 - 9:00</h2>
-                            <p>Mon - Fri</p>
-                        </div>
-                        <div class="text">
-                            <i class="fa fa-phone-alt"></i>
-                            <h2>+91792766 3778</h2>
-                            <p>For Appointment</p>
-                        </div>
-                        <div class="text">
-                            <i class="fa fa-envelope"></i>
-                            <h2>info@nanavatyadvocates.com</h2>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="top-bar-right">
-                        <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php 
+            include 'topbar.php';
+            ?>
     <!-- Top Bar End -->
 
     <!-- Nav Bar Start -->
@@ -72,20 +40,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="useful_link.html" class="nav-item nav-link">Useful Links</a>
-                    <a href="document.html" class="nav-item nav-link">DOCUMENTS</a>
-                    <a href="pa.html" class="nav-item nav-link">Practice Areas</a>
-                    <a href="blog.html" class="nav-item nav-link">Research & Articles</a>
-                    <a href="faq.html" class="nav-item nav-link">FAQ</a>
-
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
-                    <a href="quote.html" class="nav-item nav-link lastmenu">Consultation</a>
-                </div>
-            </div>
+            <?php 
+            include 'menu.php';
+            ?>
         </div>
     </div>
     <!-- Nav Bar End -->
@@ -197,54 +154,7 @@
 
 
     <!-- Footer Start -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="footer-contact">
-                                <h2>Our Head Office</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>B/307, Satyamev Complex, Opposite Gujarat High
-                                    Court, Sarkhej - Gandhinagar Highway, Sola, Ahmedabad, Gujarat 380060</p>
-                                <p><i class="fa fa-phone-alt"></i>+917927663778</p>
-                                <p><i class="fa fa-phone-alt"></i>+917948559101</p>
-                                <p><i class="fa fa-envelope"></i>info@nanavatyadvocates.com</p>
-                                <div class="footer-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="footer-link">
-                                <h2>Quick Links</h2>
-                                <a href="">Terms of use</a>
-                                <a href="">Privacy policy</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="container copyright">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Copyright &copy; 2025. All rights reserved by Nanavaty Advocates .</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Designed By <a href="#">KM Infotech</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include('footer.php'); ?> 
     <!-- Footer End -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
