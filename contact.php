@@ -101,7 +101,8 @@
                         <div class="col-md-12">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form name="sentMessage" id="contactForm" action="send_email.php" method="POST" novalidate="novalidate">
+
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name"
                                             required="required"
@@ -127,7 +128,7 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                        <button class="btn" type="button" id="sendMessageButton">Send Message</button>
                                     </div>
                                 </form>
                             </div>

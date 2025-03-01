@@ -1,65 +1,38 @@
-$(function () {
+$(document).ready(function () {
+    // Attach the submit event handler to the form
+    $("#contactForm").submit(function (event) {
+        event.preventDefault();  // Prevent the default form submission
 
-    $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function ($form, event, errors) {
-        },
-        submitSuccess: function ($form, event) {
-            event.preventDefault();
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var subject = $("input#subject").val();
-            var message = $("textarea#message").val();
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var subject = $('#subject').val();
+        var message = $('#message').val();
 
-            $this = $("#sendMessageButton");
-            $this.prop("disabled", true);
-
+        // Check if the fields are not empty
+        if (name && email && subject && message) {
+            // Perform an Ajax request to send the form data to a server-side script (send_email.php)
             $.ajax({
-                url: "contact.php",
                 type: "POST",
+                url: "send_email.php", // Your PHP script that sends the email
                 data: {
                     name: name,
                     email: email,
                     subject: subject,
                     message: message
                 },
-                cache: false,
-                success: function () {
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                            .append("</button>");
-                    $('#success > .alert-success')
-                            .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
-                            .append('</div>');
-                    $('#contactForm').trigger("reset");
+                success: function (response) {
+                    // Success response from the server (email sent successfully)
+                    alert("Thank you for your message! We will get back to you soon.");
+                    $("#contactForm")[0].reset(); // Optionally reset the form after submission
                 },
                 error: function () {
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                            .append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + name + ", it seems that our mail server is not responding. Please try again later!"));
-                    $('#success > .alert-danger').append('</div>');
-                    $('#contactForm').trigger("reset");
-                },
-                complete: function () {
-                    setTimeout(function () {
-                        $this.prop("disabled", false);
-                    }, 1000);
+                    // Error handling if the email was not sent
+                    alert("There was an error sending your message. Please try again later.");
                 }
             });
-        },
-        filter: function () {
-            return $(this).is(":visible");
-        },
+        } else {
+            // If any field is empty, show an alert
+            alert("Please fill in all fields before submitting.");
+        }
     });
-
-    $("a[data-toggle=\"tab\"]").click(function (e) {
-        e.preventDefault();
-        $(this).tab("show");
-    });
-});
-
-$('#name').focus(function () {
-    $('#success').html('');
 });

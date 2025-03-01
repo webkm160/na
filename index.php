@@ -57,42 +57,18 @@
                     <div class="carousel-img">
                         <img src="img/slider/1.jpg" alt="Image">
                     </div>
-                    <div class="carousel-text">
-                        <h1>A Legal Firm for your Legal Rights</h1>
-                        <p>
-                            Dedicated to Justice, Committed to your Defense.
-                        </p>
-                       
-                    </div>
+                   
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-img">
                         <img src="img/slider/2.jpg" alt="Image">
-                    </div>
-                    <div class="carousel-text">
-                        <h1>A Legal Firm for your Legal Rights</h1>
-                        <p>
-                            Dedicated to Justice, Committed to your Defense.
-                        </p>
-                        <div class="carousel-btn">
-                            <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                            <a class="btn btn-play" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i
-                                    class="fa fa-play"></i>Watch Video</a>
-                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-img">
                         <img src="img/slider/3.jpg" alt="Image">
                     </div>
-                    <div class="carousel-text">
-                        <h1>A Legal Firm for your Legal Rights</h1>
-                        <p>
-                            Dedicated to Justice, Committed to your Defense.
-                        </p>
-                       
-                    </div>
+                    
                 </div>
 
             </div>
