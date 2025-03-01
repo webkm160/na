@@ -68,22 +68,11 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Company Policy</td>
-                                    <td><a href="documents/company_policy.pdf" target="_blank"
+                                    <td>VAKALATNAMA</td>
+                                    <td><a href="documents/1.pdf" target="_blank"
                                             class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> View</a></td>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Employee Handbook</td>
-                                    <td><a href="documents/employee_handbook.pdf" target="_blank"
-                                            class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> View</a></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Project Guidelines</td>
-                                    <td><a href="documents/project_guidelines.pdf" target="_blank"
-                                            class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> View</a></td>
-                                </tr>
+                               
                             </tbody>
                         </table>
                     </div>

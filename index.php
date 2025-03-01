@@ -321,9 +321,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team/advocate.png" alt="Team Image" width="50px" height="300px">
-                        </div>
+                        
                         <div class="team-text">
                             <h2>Nanavaty Advocates
                             </h2>
@@ -333,9 +331,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team/advocate.png" alt="Team Image" width="50px" height="300px">
-                        </div>
+                       
                         <div class="team-text">
                             <h2>Nilay Thaker</h2>
                             <p>nilay@nanavatyadvocates.com</p>
@@ -345,9 +341,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team/advocate1.png" alt="Team Image" width="50px" height="300px">
-                        </div>
+                        
                         <div class="team-text">
                             <h2>Rajvi Vibhani</h2>
                             <p>rajvi@nanavatyadvocates.com</p>
@@ -357,20 +351,16 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team/advocate1.png" alt="Team Image" width="50px" height="300px">
-                        </div>
+                      
                         <div class="team-text">
                             <h2>Vishwa Mistry</h2>
                             <p>vishwa@nanavatyadvocates.com</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mt-5">
                     <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team/advocate.png" alt="Team Image" width="50px" height="300px">
-                        </div>
+                      
                         <div class="team-text">
                             <h2>Vatsal Prajapati
                             </h2>
