@@ -23,6 +23,10 @@ if (isset($_POST['edit_blog'])) {
     $content = $_POST['content'];
     $category_id = $_POST['blog_category_id'];
 
+    
+    $title = mysqli_real_escape_string($conn, $title);
+$content = mysqli_real_escape_string($conn, $content);
+
     // Check if a new image has been uploaded
     if (isset($_FILES['blog_image']) && $_FILES['blog_image']['error'] == 0) {
         // Handle Image Upload

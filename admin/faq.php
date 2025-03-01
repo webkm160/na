@@ -8,6 +8,11 @@ if (isset($_POST['add_faq'])) {
     $answer = $_POST['answer'];
     $category = $_POST['category'];
 
+    $question = mysqli_real_escape_string($conn, $question);
+$answer = mysqli_real_escape_string($conn, $answer);
+$category = mysqli_real_escape_string($conn, $category);
+
+
     $sql = "INSERT INTO faq (question, answer, category) VALUES ('$question', '$answer', '$category')";
     if ($conn->query($sql) === TRUE) {
         echo "<div class='alert alert-success'>New FAQ added successfully!</div>";
@@ -22,6 +27,11 @@ if (isset($_POST['edit_faq'])) {
     $question = $_POST['question'];
     $answer = $_POST['answer'];
     $category = $_POST['category'];
+
+    $question = mysqli_real_escape_string($conn, $question);
+$answer = mysqli_real_escape_string($conn, $answer);
+$category = mysqli_real_escape_string($conn, $category);
+
 
     $sql = "UPDATE faq SET question='$question', answer='$answer', category='$category' WHERE id=$id";
     if ($conn->query($sql) === TRUE) {

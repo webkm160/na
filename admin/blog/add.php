@@ -38,6 +38,9 @@ if (isset($_POST['add_blog'])) {
         }
     }
     
+    $title = mysqli_real_escape_string($conn, $title);
+$content = mysqli_real_escape_string($conn, $content);
+
     // Insert blog post data along with the image path
     $sql = "INSERT INTO blog (title, content, category_id, image_path) VALUES ('$title', '$content', '$category_id', '$imagePath')";
     if ($conn->query($sql) === TRUE) {
