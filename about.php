@@ -94,6 +94,116 @@
                 </div>
             </div>
         </div>
+
+
+          <!-- Feature Start -->
+    <div class="feature">
+        <div class="container">
+            <div class="section-header">
+                <!-- <p>Consulting Services</p> -->
+                <h2>Founder Speak</h2>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-md-6">
+                    <div class="feature-img">
+                        <!-- <img src="img/business-man.png" alt="Image"> -->
+                        <img src="img/team/t1.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-header">
+                        <!-- <p>Our Feature</p> -->
+                        <h2>Why Choose Us?</h2>
+                    </div>
+                    <p>
+                        Our expert legal team blends seasoned professionals with emerging talent, allowing us to tackle
+                        legal challenges from diverse viewpoints and provide the best possible solutions for our
+                        clients.
+                    </p>
+                    <p>
+                        At Nanavaty advocates we are not just legal practitioner; we are partners in your success. our
+                        mission is to be your trusted legal advisors. guide you through challenges and helping you seize
+                        opportunities. Discover a new standard of legal excellence at Nanavaty advocates where your
+                        success is our priority.
+                    </p>
+                    <p>
+                        Where the pursuit of justice is not just mission but a passion as a premier criminal law firm,
+                        we understand that facing legal challenges can be a daunting experience. whether you are
+                        confronting criminal charges or seeking legal counsel, our team of experienced and dedicated
+                        advocates are here to provide and wavering support and expert representation. what sets us apart
+                        is our personalized approach to each client's unique situation.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+    <!-- Team Start -->
+    <div class="team">
+        <div class="container">
+            <div class="section-header">
+                <p>Meet Our Advisors</p>
+                <h2>Our Professional Consulting Team</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        
+                        <div class="team-text">
+                            <h2>Nanavaty Advocates
+                            </h2>
+                            <p>info@nanavatyadvocates.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                       
+                        <div class="team-text">
+                            <h2>Nilay Thaker</h2>
+                            <p>nilay@nanavatyadvocates.com</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        
+                        <div class="team-text">
+                            <h2>Rajvi Vibhani</h2>
+                            <p>rajvi@nanavatyadvocates.com</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                      
+                        <div class="team-text">
+                            <h2>Vishwa Mistry</h2>
+                            <p>vishwa@nanavatyadvocates.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <div class="team-item">
+                      
+                        <div class="team-text">
+                            <h2>Vatsal Prajapati
+                            </h2>
+                            <p>vatsal@nanavatyadvocates.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
     </div>
     <!-- Single Page End -->
 

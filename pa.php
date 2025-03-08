@@ -23,13 +23,21 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        {
+    .navbar {
+        background: #092a49 !important;
+    }
+}
+    </style>
 </head>
 
 <body class="page">
     <!-- Top Bar Start -->
     <?php 
             include 'topbar.php';
-            ?>
+    ?>
     <!-- Top Bar End -->
 
     <!-- Nav Bar Start -->
