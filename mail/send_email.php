@@ -7,10 +7,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Set the recipient email address
-    $to = "info@nanavatyadvocates.com";  // Your email
+   // $to = "info@nanavatyadvocates.com";  // Your email
+   $to = "m.mahesh.p@gmail.com";
 
     // Set the email subject
-    $email_subject = "New Contact Form Submission: " . $subject;
+    $email_subject = "New Inquiry";
 
     // Set the email content
     $email_body = "You have received a new message from the contact form on your website.\n\n".

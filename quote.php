@@ -67,7 +67,7 @@
                 <div class="col-md-12">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate" enctype="multipart/form-data">
+                        <form name="sentMessage" id="consultationForm" novalidate="novalidate" enctype="multipart/form-data">
 
                             <div class="control-group">
                                 <input type="text" class="form-control" id="name" placeholder="Your Name"
@@ -110,11 +110,33 @@
                             </div>
 
                             <div class="control-group">
-                                <input type="text" class="form-control" id="timePicker" placeholder="Select Time"
-                                    required="required" data-validation-required-message="Please enter a time" />
+                                <label for="hour">Select Hour:</label>
+                                <select id="hour" class="form-control" required="required" data-validation-required-message="Please enter a time">
+                                    <option value="">Select Hour</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+
+                                <label for="ampm">AM/PM:</label>
+                                <select id="ampm" class="form-control" required="required" data-validation-required-message="Please select AM/PM">
+                                    <option value="">Select AM/PM</option>
+                                    <option value="AM">AM</option>
+                                    <option value="PM">PM</option>
+                                </select>
                                 <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">
+
+                            <div class="control-group mb-5">
                                 <label for="fileUpload">Attach File</label>
                                 <input type="file" class="form-control" id="fileUpload" name="fileUpload" required>
                                 <p class="help-block text-danger"></p>

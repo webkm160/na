@@ -94,75 +94,7 @@
             </div>
         </div>
     </div>
-    <!-- Video Modal End -->
-
-
-    <!-- Fact Start -->
-    <!-- <div class="fact">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-4.png" alt="Icon">
-                        <h2>Qualified Team</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-1.png" alt="Icon">
-                        <h2>Individual Approach</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-8.png" alt="Icon">
-                        <h2>100% Success</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-6.png" alt="Icon">
-                        <h2>100% Satisfaction</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Fact Start -->
-
-
-    <!-- About Start -->
-    <!-- <div class="about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="about-img">
-                        <div class="about-img-1">
-                            <img src="img/about-2.jpg" alt="Image">
-                        </div>
-                        <div class="about-img-2">
-                            <img src="img/about-1.jpg" alt="Image">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="section-header">
-                        <p>Learn About Us</p>
-                        <h2>25 Years Experience</h2>
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            Nanavaty Advocates main purpose is to protect their client's rights with the help of law.
-                            Lawyers in Ahmedabad are always on demand to fight many legal issues between people or
-                            companies. They are well-known for their guidance, advice and knowledge.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- About End -->
+    
 
 
     <!-- Service Start -->
@@ -207,56 +139,6 @@
 
                     </div>
                 </div>
-                <!-- <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-4.png" alt="Icon">
-                        <h3>Human Resource</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-5.png" alt="Icon">
-                        <h3>Online Business</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-6.png" alt="Icon">
-                        <h3>Capital Management</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-7.png" alt="Icon">
-                        <h3>Business Insurance</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-8.png" alt="Icon">
-                        <h3>Online Marketing</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
