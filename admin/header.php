@@ -40,6 +40,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li class="nav-item">
                         <a class="nav-link <?php echo ($current_page == 'category.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/category.php">Categories</a>
                     </li>
+                    <!-- Practice Area Menu Item -->
+                      <li class="nav-item">
+                        <a class="nav-link <?php echo ($current_page == 'pa.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/pa.php">Practice Area</a>
+                    </li>
                     <!-- Logout Menu Item -->
                     <li class="nav-item">
                         <a class="nav-link btn btn-danger btn-sm text-white" href="http://localhost/na/admin/logout.php">Logout</a>
