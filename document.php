@@ -1,3 +1,12 @@
+<?php
+// Include database connection and other necessary files
+include 'admin/connection.php'; // Ensure you have a valid connection.php file
+
+// Fetch documents from the database
+$sql = "SELECT * FROM documents";
+$result = $conn->query($sql);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +21,7 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +35,7 @@
 
 <body class="page">
     <!-- Top Bar Start -->
-    <?php 
-            include 'topbar.php';
-            ?>
+    <?php include 'topbar.php'; ?>
     <!-- Top Bar End -->
 
     <!-- Nav Bar Start -->
@@ -39,21 +45,15 @@
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <?php 
-            include 'menu.php';
-            ?>
+            <?php include 'menu.php'; ?>
         </div>
     </div>
     <!-- Nav Bar End -->
 
-
     <!-- Contact Start -->
     <div class="contact mt-125">
         <div class="container">
-
             <div class="row align-items-center">
-
                 <div class="col-md-12">
                     <div class="container">
                         <h2 class="mb-4">Available Documents</h2>
@@ -66,13 +66,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>VAKALATNAMA</td>
-                                    <td><a href="documents/1.pdf" target="_blank"
-                                            class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> View</a></td>
-                                </tr>
-                               
+                                <?php 
+                                // Check if documents are available
+                                if ($result->num_rows > 0) {
+                                    $counter = 1;
+                                    while ($row = $result->fetch_assoc()) { 
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $counter++; ?></td>
+                                            <td><?php echo $row['document_name']; ?></td>
+                                            <td><a href="na/<?php echo $row['document_path']; ?>" target="_blank" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> View</a></td>
+                                        </tr>
+                                        <?php 
+                                    }
+                                } else {
+                                    echo "<tr><td colspan='3' class='text-center'>No documents available</td></tr>";
+                                }
+                                ?>
                             </tbody>
                         </table>
                     </div>
@@ -82,9 +92,8 @@
     </div>
     <!-- Contact End -->
 
-
     <!-- Footer Start -->
-    <?php include('footer.php'); ?> 
+    <?php include 'footer.php'; ?>
     <!-- Footer End -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -106,3 +115,8 @@
 </body>
 
 </html>
+
+<?php
+// Close the database connection
+$conn->close();
+?>

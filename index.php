@@ -162,7 +162,7 @@
                             <i class="fa fa-map-marker-alt"></i>
                         </div>
                         <div class="contact-text">
-                            <h3>Our Head Office</h3>
+                            <h3>Office</h3>
                             <p>B/307, Satyamev Complex, Opposite Gujarat High Court, Sarkhej - Gandhinagar Highway,
                                 Sola, Ahmedabad, Gujarat 380060</p>
                         </div>

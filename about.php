@@ -99,10 +99,7 @@
           <!-- Feature Start -->
     <div class="feature">
         <div class="container">
-            <div class="section-header">
-                <!-- <p>Consulting Services</p> -->
-                <h2>Founder Speak</h2>
-            </div>
+           
             <div class="row align-items-end">
                 <div class="col-md-6">
                     <div class="feature-img">
@@ -170,16 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        
-                        <div class="team-text">
-                            <h2>Rajvi Vibhani</h2>
-                            <p>rajvi@nanavatyadvocates.com</p>
-
-                        </div>
-                    </div>
-                </div>
+              
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                       
@@ -189,7 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mt-5">
+                <div class="col-lg-3 col-md-6>
                     <div class="team-item">
                       
                         <div class="team-text">

@@ -28,8 +28,8 @@
 <body class="page">
     <!-- Top Bar Start -->
     <?php 
-            include 'topbar.php';
-            ?>
+        include 'topbar.php';
+    ?>
     <!-- Top Bar End -->
 
     <!-- Nav Bar Start -->
@@ -41,12 +41,11 @@
             </button>
 
             <?php 
-            include 'menu.php';
+                include 'menu.php';
             ?>
         </div>
     </div>
     <!-- Nav Bar End -->
-
 
     <!-- Contact Start -->
     <div class="contact mt-125">
@@ -56,17 +55,19 @@
                 <h2>Get In Touch For Any Query</h2>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="contact-info">
                         <div class="contact-icon">
                             <i class="fa fa-map-marker-alt"></i>
                         </div>
                         <div class="contact-text">
-                            <h3>Our Head Office</h3>
+                            <h3>Office</h3>
                             <p>B/307, Satyamev Complex, Opposite Gujarat High Court, Sarkhej - Gandhinagar Highway,
                                 Sola, Ahmedabad, Gujarat 380060</p>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6" style="padding-right:0px;">
                     <div class="contact-info">
                         <div class="contact-icon">
                             <i class="fa fa-map-pin"></i>
@@ -76,6 +77,10 @@
                             <p>419 , Lawyers Chambers, Gujarat High Court, Sola, Ahmedabad 380060</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
                     <div class="contact-info">
                         <div class="contact-icon">
                             <i class="fa fa-phone-alt"></i>
@@ -85,6 +90,8 @@
                             <p>+917927663778<br>+917948559101</p>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
                     <div class="contact-info">
                         <div class="contact-icon">
                             <i class="fa fa-envelope"></i>
@@ -95,46 +102,9 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                            required="required"
-                                            data-validation-required-message="Please enter your name" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                            required="required"
-                                            data-validation-required-message="Please enter your email" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                            required="required"
-                                            data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message"
-                                            required="required"
-                                            data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
+            </div>
+            <div class="row align-items-center">
+             
                         <div class="col-md-12">
                             <div class="map-wrapper">
                                 <div id="map">
@@ -143,16 +113,12 @@
                                         src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=23.078093227205372,%2072.52638462290082+(My%20Business%20Name)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
+                       
                 </div>
-
             </div>
         </div>
     </div>
     <!-- Contact End -->
-
 
     <!-- Footer Start -->
     <?php include('footer.php'); ?> 

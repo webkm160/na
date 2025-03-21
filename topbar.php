@@ -5,7 +5,7 @@
                     <div class="top-bar-left">
                         <div class="text">
                             <i class="far fa-clock"></i>
-                            <h2>8:00 - 9:00</h2>
+                            <h2>9:00 - 9:00</h2>
                             <p>Mon - Fri</p>
                         </div>
                         <div class="text">
@@ -23,8 +23,6 @@
                 <div class="col-md-4">
                     <div class="top-bar-right">
                         <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
                             <a href=""><i class="fab fa-linkedin-in"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                         </div>

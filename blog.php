@@ -19,7 +19,7 @@ $current_page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $offset = ($current_page - 1) * $blogs_per_page;
 
 // Fetch blogs from the database with LIMIT and OFFSET for pagination
-$sql = "SELECT blog.title, blog.content, blog.id, blog.image_path, categories.name AS category
+$sql = "SELECT blog.title, blog.content, blog.id, blog.image_path, categories.name AS category, blog.created_at
         FROM blog
         JOIN categories ON blog.category_id = categories.id
         ORDER BY blog.id DESC
