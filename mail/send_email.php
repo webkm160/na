@@ -1,4 +1,5 @@
 <?php
+include '../admin/connection.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form fields
     $name = htmlspecialchars($_POST['name']);
@@ -6,6 +7,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
 
+
+    $sql = "INSERT INTO contact_us (name, email, subject, message) 
+            VALUES ('$name', '$email', '$subject', '$message')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Message submitted successfully!";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
     // Set the recipient email address
    // $to = "info@nanavatyadvocates.com";  // Your email
    $to = "m.mahesh.p@gmail.com";
