@@ -50,27 +50,27 @@ $unread_consultation_count = $consultation_row['unread_consultation_count'];
                 <ul class="navbar-nav ms-auto">
                     <!-- Blog Menu Item -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'index.php' || $current_page == 'add.php' || $current_page == 'edit.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/blog/index.php">Blog</a>
+                        <a class="nav-link <?php echo ($current_page == 'index.php' || $current_page == 'add.php' || $current_page == 'edit.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/blog/index.php">Blog</a>
                     </li>
                     <!-- FAQ Menu Item -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'faq.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/faq.php">FAQ</a>
+                        <a class="nav-link <?php echo ($current_page == 'faq.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/faq.php">FAQ</a>
                     </li>
                     <!-- Categories Menu Item -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'category.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/category.php">Categories</a>
+                        <a class="nav-link <?php echo ($current_page == 'category.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/category.php">Categories</a>
                     </li>
                     <!-- Practice Area Menu Item -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'pa.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/pa.php">Practice Area</a>
+                        <a class="nav-link <?php echo ($current_page == 'pa.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/pa.php">Practice Area</a>
                     </li>
                     <!-- Documents Item -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'document.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/document.php">Documents</a>
+                        <a class="nav-link <?php echo ($current_page == 'document.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/document.php">Documents</a>
                     </li>
                     <!-- Contact Us Item with Unread Count -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'contactus.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/contactus.php">
+                        <a class="nav-link <?php echo ($current_page == 'contactus.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/contactus.php">
                             Inquiries
                             <span class="badge bg-danger"><?php echo $unread_contact_count; ?></span> <!-- Display unread inquiries count -->
                             <i class="fas fa-bell"></i> <!-- Notification Icon -->
@@ -78,7 +78,7 @@ $unread_consultation_count = $consultation_row['unread_consultation_count'];
                     </li>
                     <!-- Consultations Item with Unread Count -->
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($current_page == 'consultations.php') ? 'active' : ''; ?>" href="http://localhost/na/admin/consultations.php">
+                        <a class="nav-link <?php echo ($current_page == 'consultations.php') ? 'active' : ''; ?>" href="https://nanavatyadvocates.com/admin/consultations.php">
                             Consultations
                             <span class="badge bg-danger"><?php echo $unread_consultation_count; ?></span> <!-- Display unread consultations count -->
                             <i class="fas fa-bell"></i> <!-- Notification Icon -->
@@ -86,7 +86,7 @@ $unread_consultation_count = $consultation_row['unread_consultation_count'];
                     </li>
                     <!-- Logout Menu Item -->
                     <li class="nav-item">
-                        <a class="nav-link btn btn-danger btn-sm text-white" href="http://localhost/na/admin/logout.php">Logout</a>
+                        <a class="nav-link btn btn-danger btn-sm text-white" href="https://nanavatyadvocates.com/admin/logout.php">Logout</a>
                     </li>
                 </ul>
             </div>

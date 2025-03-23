@@ -35,7 +35,6 @@ $conn->query($query);
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Message</th>
@@ -46,7 +45,6 @@ $conn->query($query);
                 <tbody>
                     <?php while ($row = $contact_result->fetch_assoc()): ?>
                         <tr>
-                            <td><?php echo $row['id']; ?></td>
                             <td><?php echo $row['name']; ?></td>
                             <td><?php echo $row['email']; ?></td>
                             <td>

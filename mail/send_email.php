@@ -17,8 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
     // Set the recipient email address
-   // $to = "info@nanavatyadvocates.com";  // Your email
-   $to = "m.mahesh.p@gmail.com";
+   $to = "info@nanavatyadvocates.com";  // Your email
+  
 
     // Set the email subject
     $email_subject = "New Inquiry";

@@ -38,7 +38,6 @@ $conn->query($query);
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Contact Number</th>
@@ -52,7 +51,6 @@ $conn->query($query);
                 <tbody>
                     <?php while ($row = $consultation_result->fetch_assoc()): ?>
                         <tr>
-                            <td><?php echo $row['id']; ?></td>
                             <td><?php echo $row['name']; ?></td>
                             <td><?php echo $row['email']; ?></td>
                             <td><?php echo $row['contact_number']; ?></td>
@@ -68,6 +66,9 @@ $conn->query($query);
                                 <a href="consultations.php?delete=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this request?')">Delete</a>
                                 <!-- Trigger the modal to show full consultation request -->
                                 <button type="button" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#consultationModal_<?php echo $row['id']; ?>">View</button>
+                                <a href="https://nanavatyadvocates.com/<?php echo $row['file_path']; ?>" target="_blank" class="btn btn-danger btn-sm"><i class="fas fa-file-pdf"></i> Download</a>
+                              
+                            </td>
                             </td>
                         </tr>
 

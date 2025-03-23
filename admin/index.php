@@ -5,7 +5,7 @@ session_start(); // Start the session at the top of the file
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Hardcoded credentials (for demonstration)
     $valid_username = "admin";
-    $valid_password = "admin";
+    $valid_password = "admin@Yash#";
 
     // Get the values from the form
     $username = $_POST['username'];

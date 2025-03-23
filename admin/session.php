@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-    header('Location: http://localhost/na/admin/index.php');
+    header('Location: https://nanavatyadvocates.com/admin/index.php');
     exit();
 }
 ?>

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ampm = $_POST['ampm'];
 
 
-    $to = "your-email@example.com";
+    $to = "info@nanavatyadvocates.com";
 
     // Subject of the email
     $subject = "New Consultation Request";
@@ -166,7 +166,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand"><img src="img/White logo - no background.png" alt="Image"></a>
+            <a href="index.php" class="navbar-brand"><img src="img/White logo - no background.png" alt="Image"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
